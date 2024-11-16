@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>90</y>
+     <width>581</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="4" column="2">
+     <widget class="QPushButton" name="pushButton_viewDeque">
+      <property name="font">
+       <font>
+        <family>Bahnschrift Condensed</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Mostrar deque</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" rowspan="2">
+     <widget class="QPushButton" name="pushButton_agregarFinal">
+      <property name="font">
+       <font>
+        <family>Bahnschrift Condensed</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Agregar al final</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" rowspan="2">
+     <widget class="QPushButton" name="pushButton_agregarFrente">
+      <property name="font">
+       <font>
+        <family>Bahnschrift Condensed</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Agregar al  frente</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" colspan="3">
+     <widget class="QLabel" name="label_mostrar">
+      <property name="text">
+       <string>Cargando los datos..</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QPushButton" name="pushButton_EliminarElemento">
+      <property name="font">
+       <font>
+        <family>Bahnschrift Condensed</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Eliminar elemento</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="pushButton_buscarContenido">
+      <property name="font">
+       <font>
+        <family>Bahnschrift Condensed</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Buscar contenido</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="text">
+       <string> Ingresa un numero..</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QPushButton" name="pushButton_ordenarDeque">
+      <property name="font">
+       <font>
+        <family>Bahnschrift Condensed</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Ordenar Deque</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
